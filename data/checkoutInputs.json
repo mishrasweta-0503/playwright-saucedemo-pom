@@ -1,0 +1,11 @@
+[
+    {
+        "testDescription": "Missing First Name","firstName":"","lastName":"Jones","postalCode":"1234","expectedErrorMessage":"Error: First Name is required"
+    },
+    {
+        "testDescription": "Missing Last Name","firstName":"Alex","lastName":"","postalCode":"1234","expectedErrorMessage":"Error: Last Name is required"
+    },
+    {
+        "testDescription": "Missing Postal Code","firstName":"Alex","lastName":"Jones","postalCode":"","expectedErrorMessage":"Error: Postal Code is required"
+    }
+]
